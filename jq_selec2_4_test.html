@@ -9,15 +9,16 @@
 </head>
 <body>
     <h1>제이쿼리 탐색 선택자</h1>
-    <p>p.194</p>
     <ol>
         <li>first-of-type</li>
         <li>last-of-type</li>
-        <script>
-            $(document).ready(function(){
-
-            });
-        </script>
+        <li>목록 1-3</li>
     </ol>
+    <script>
+        $(document).ready(function(){
+            $("li:first-of-type").css("background-color","#ff0");
+            $("li:last-of-type").css("background-color","#0ff");
+        });
+    </script>
 </body>
 </html>
