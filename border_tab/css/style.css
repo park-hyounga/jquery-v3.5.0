@@ -65,11 +65,9 @@ a,a:link {
     display:inline-block;
     margin:16px 0 0 0;
 }
-.board_title li.on {
-    background:#222328;
-}
 .board_title li.on a {
     display:block;
+    background:#222328;
     color:#fff;
     padding:5px 10px;                        
 }
@@ -77,8 +75,10 @@ a,a:link {
     list-style:square inside;
     margin:0 0 0 1em;
 }
-#gallery {
+.hide{
     display:none;
+}
+#gallery {
     position:absolute;
     top:0;
     left:0;
